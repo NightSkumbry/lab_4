@@ -1,0 +1,1010 @@
+@startuml
+scale max 4000 width
+class App {
++static void main(String[] args)
+}
+App --down[#AAA]-o places.Bench
+App -down[#AAA]--o characters.Stupid
+App -down[#AAA]-o characters.Wizard
+App -down[#AAA]--o characters.Button
+App -down[#AAA]-o characters.Motley
+App --down[#AAA]-o characters.groups.KnownGroup
+App -down[#AAA]--o enums.modificators.Behavior
+App -down[#AAA]-o enums.modificators.Text
+App -down[#AAA]--o places.Sun
+App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App --down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App --down[#AAA]-o characters.AbstractCharacter
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o items.Stick
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App --down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o places.Road
+'!>10 App -down[#AAA]-o characters.Donkey
+'!>10 App -down[#AAA]--o characters.Donkey
+'!>10 App -down[#AAA]-o characters.Donkey
+'!>10 App --down[#AAA]-o characters.groups.KnownGroup
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App --down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App --down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o characters.Cleaner
+'!>10 App -down[#AAA]-o items.HandScarf
+'!>10 App --down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App --down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App --down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o places.Fence
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App --down[#AAA]-o items.Gate
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App --down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o places.Exit
+'!>10 App --down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o characters.groups.KnownGroup
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App --down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o places.Street
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App --down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o characters.groups.UnknownGroup
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App --down[#AAA]-o characters.Plot
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App --down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App --down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App --down[#AAA]-o places.CrossRoad
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App --down[#AAA]-o characters.groups.UnknownGroup
+'!>10 App -down[#AAA]--o places.House
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o characters.groups.UnknownGroup
+'!>10 App --down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o items.AbstractItem
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App --down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App --down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o items.Gloves
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App --down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App --down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App --down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o places.Corner
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App --down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o places.Pavement
+'!>10 App -down[#AAA]-o characters.groups.UnknownGroup
+'!>10 App --down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App --down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App --down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App --down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App --down[#AAA]-o places.AbstractPlace
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App --down[#AAA]-o items.Glove
+'!>10 App -down[#AAA]--o items.Glove
+'!>10 App -down[#AAA]-o items.Glove
+'!>10 App -down[#AAA]--o items.Glove
+'!>10 App -down[#AAA]-o items.Glove
+'!>10 App --down[#AAA]-o items.Glove
+'!>10 App -down[#AAA]--o characters.Small
+'!>10 App -down[#AAA]-o items.Glove
+'!>10 App -down[#AAA]--o characters.Small
+'!>10 App -down[#AAA]-o items.Glove
+'!>10 App --down[#AAA]-o characters.Small
+'!>10 App -down[#AAA]--o items.Glove
+'!>10 App -down[#AAA]-o characters.groups.KnownGroup
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App --down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o characters.Small
+'!>10 App -down[#AAA]--o items.Glove
+'!>10 App -down[#AAA]-o items.Glove
+'!>10 App --down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App --down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o characters.Policeman
+'!>10 App -down[#AAA]-o items.Glove
+'!>10 App -down[#AAA]--o items.Glove
+'!>10 App -down[#AAA]-o items.Helmet
+'!>10 App --down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App --down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App --down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App --down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o items.Trousers
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App --down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App --down[#AAA]-o places.AbstractPlace
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App --down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App --down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o places.Square
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App --down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o items.Cars
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o places.Car
+'!>10 App --down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o items.PaperSign
+'!>10 App --down[#AAA]-o enums.modificators.Behavior
+'!>10 App -down[#AAA]--o enums.modificators.Text
+'!>10 App -down[#AAA]-o places.Town
+'!>10 App -down[#AAA]--o places.Town
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App --down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]-o enums.modificators.Behavior
+'!>10 App --down[#AAA]-o enums.modificators.Text
+'!>10 App -down[#AAA]--o enums.modificators.Behavior
+'!>10 App -down[#AAA]-o enums.modificators.Text
+
+class places.AbstractPlace extends places.Place {
++AbstractPlace()
++AbstractPlace(String name)
+}
+
+
+class places.Bench extends places.Place {
++Bench()
++Bench(String name)
+}
+
+
+class places.Car extends places.Place {
++Car()
++Car(String name)
+}
+
+
+class places.Corner extends places.Place {
++Corner()
++Corner(String name)
+}
+
+
+class places.CrossRoad extends places.Place {
++CrossRoad()
++CrossRoad(String name)
+}
+
+
+class places.Exit extends places.Place {
++Exit()
++Exit(String name)
+}
+
+
+class places.Fence extends places.Place {
++Fence()
++Fence(String name)
+}
+
+
+class places.House extends places.Place {
++House()
++House(String name)
+}
+
+
+class places.Pavement extends places.Place {
++Pavement()
++Pavement(String name)
+}
+
+
+abstract class places.Place {
+-String name
+#Place()
+#Place(String name)
++String getName()
++void print()
++boolean equals(Object otherObject)
++int hashCode()
++String toString()
+}
+
+
+class places.Road extends places.Place {
++Road()
++Road(String name)
+}
+
+
+class places.Roof extends places.Place {
++Roof()
++Roof(String name)
+}
+
+
+class places.Square extends places.Place {
++Square()
++Square(String name)
+}
+
+
+class places.Street extends places.Place implements places.interfaces.IPlayMusic {
++Street()
++Street(String name)
++void PlayMusic(Relatives relative)
+}
+
+
+class places.Sun extends places.Place {
++Sun()
++Sun(String name)
+}
+
+
+class places.Swarm extends places.Place {
++Swarm()
++Swarm(String name)
+}
+
+
+class places.Town extends places.Place {
++Town()
++Town(String name)
+}
+
+
+class places.Zoo extends places.Place {
++Zoo()
++Zoo(String name)
+}
+
+
+interface places.interfaces.IPlayMusic {
+void PlayMusic(Relatives relative)
+}
+
+
+class items.AbstractItem extends items.Item  implements items.interfaces.ICanFall {
++AbstractItem()
++AbstractItem(String name)
++void fall(Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
++void startFall(Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
+}
+
+
+class items.Cars extends items.Item implements items.interfaces.ICanStill {
++Cars()
++Cars(String name)
++void stand(Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
++void startStand(Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
+}
+
+
+class items.Gate extends items.Item {
++Gate()
++Gate(String name)
+}
+
+
+class items.Glove extends items.Item {
+-Colors color
++Glove(Colors color)
++Glove(String name, Colors color)
++Colors getColor()
++String getName()
++void print()
+}
+
+
+class items.Gloves extends items.Item implements items.interfaces.ICanFall {
++Gloves()
++Gloves(String name)
++void listColors()
++void fall(Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
++void startFall(Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
+}
+
+
+class items.HandScarf extends items.Item {
++HandScarf()
++HandScarf(String name)
+}
+
+
+class items.Helmet extends items.Item {
++Helmet()
++Helmet(String name)
+}
+
+
+abstract class items.Item {
+-String name
+#Item()
+#Item(String name)
++String getName()
++void print()
++boolean equals(Object otherObject)
++int hashCode()
++String toString()
+}
+
+
+class items.PaperSign extends items.Item implements items.interfaces.ICanBePainted {
+-String painting = ""
++PaperSign()
++PaperSign(String name)
++void setPainting(String description)
++void describePainting()
++void paintWithPencil(String description)
+}
+
+
+class items.Stick extends items.Item {
++Stick()
++Stick(String name)
+}
+
+
+class items.Trousers extends items.Item {
++Trousers()
++Trousers(String name)
+}
+
+
+interface items.interfaces.ICanBePainted {
+void setPainting(String description)
+void describePainting()
+void paintWithPencil(String description)
+}
+
+
+interface items.interfaces.ICanFall {
+void fall(Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
+default +void fall(Behavior[] static_mods, Text[] text_mods)
+void startFall(Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
+default +void startFall(Behavior[] static_mods, Text[] text_mods)
+}
+
+
+interface items.interfaces.ICanStill {
+void stand(Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
+default +void stand(Behavior[] static_mods, Text[] text_mods)
+void startStand(Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
+default +void startStand(Behavior[] static_mods, Text[] text_mods)
+}
+
+
+class exceptions.IncorrectSlotException extends RuntimeException {
++IncorrectSlotException(String message)
++String getMessage()
+}
+
+
+class exceptions.NoLocationException extends RuntimeException {
++NoLocationException(String message)
++String getMessage()
+}
+
+
+enum enums.Actions {
+WARM("грелись"),
+JOY("радовались"),
+FEEL("чувствовали"),
+REGRET("жалел"),
+APPEAR("показались"),
+WAS("был"),
+KNOCK_WITH_HOOF("постукивали копытцами"),
+WAVE_TAIL("помахивали хвостом"),
+MOVE_EARS("шевелили ушами"),
+UNDERSTAND("понимал"),
+TALK_ABOUT("говорили о"),
+LOWER_HEAD("опустил голову"),
+BLINK_EYES("помаргивал глазами"),
+HAS("имел"),
+OPEN("отворила"),
+HURRY("поспешили"),
+SAW("увидел"),
+WANT("хотел"),
+STAY_AT_HOME("оставаться дома"),
+SING("пели"),
+PRODUCE("издавали"),
+TAKE_FROM("доставали"),
+THROW_TO("бросали в"),
+GET_CLOSER("подошли ближе"),
+CLOSER("приближается"),
+GRAB("хватали"),
+RAISE("поднимали"),
+EQUIP_HANDS("надевали на руки"),
+START_EXCHANGE("начинали обмениваться"),
+TRYING_PICK_A_PAIR("старались подобрать пару"),
+HOLD_HANDS("держались за руки"),
+WATCH_ON("смотрели"),
+LAYING_EYES("спуская глаз"),
+RECOGNIZE("замечали"),
+RUSH_TO_PICK_UP("бросилась подбирать"),
+KNOCKED_DOWN("был сбит с ног"),
+LEAVE_SWARM("выбрались из толпы"),
+START_REVIEWING("стали рассматривать"),
+RUN_CLOSER("подбежали"),
+CONVINCE("убедился"),
+OPEN_MOUTH("разинул рот"),
+REMAIN("так и остался"),
+WENT_STRAIGHT_TO("направился прямо к"),
+START_INSPECT("принялся осматривать"),
+INSPECT("осмотрел"),
+SEEM("как казалось"),
+SEEMED("показалось"),
+FROZE("похолодел"),
+WAS_READY_TO_MAKE_STREKACH("был готов задать стрекача"),
+WATCH_CLOSER("взглянул"),
+PULL("натянул"),
+STRAIGHTEN("расправил"),
+HANDE_HOCH("приложил руку к козырьку"),
+SMILE("улыбнулся"),
+WENT_HIS_ROAD("отправился своей дорогой"),
+PUT_HANDS("сунул руку"),
+PULL_OUT("вытащил"),
+FIND("нашёл"),
+PUT("сунул")
+-final String text
+Actions(String text)
++String getText()
++void print()
+}
+
+
+enum enums.Colors {
+WHITE("белая"),
+BLUE("синяя"),
+RED("красная"),
+GREEN("зелёная"),
+BROWN("коричневая"),
+ORANGE("оранжевая"),
+YELLOW("жёлтая"),
+LIGHT_BLUE("голубая"),
+PINK("розовая")
+-final String text
+Colors(String text)
++String getText()
++void print()
+}
+
+
+enum enums.Connections {
+AND("и"),
+COMMA(","),
+OR("или"),
+FULL_STOP("."),
+COLON(":"),
+RIGHTLY_TO_SAY("вернее сказать"),
+THAT("что"),
+ONLY("только"),
+BECAUSE("потому что"),
+A("а"),
+ON_WHICH("на которых"),
+BUT("но")
+-final String text
+Connections(String text)
++void print()
+}
+
+
+struct enums.NamesRecord {
+-String name_1
+-String name_2
+}
+
+
+enum enums.Relatives {
+ON("на"),
+ABOUT("о"),
+TOWARDS("к"),
+BEHIND("за"),
+FROM("с"),
+NEAR("у")
+-final String text
+Relatives(String text)
++String getText()
++void print()
+}
+
+
+enum enums.States {
+WALK("шёл", "пошёл"),
+STAND("стоял", "встал"),
+SIT("сидел", "сел")
+-final String in_action, start_action
+States(String in_action, String start_action)
++String getInAction()
++String getStartAction()
++void printInAction()
++void printStartAction()
+}
+
+
+enum enums.modificators.Behavior {
+WITHOUT_NAME,
+MODS_BEFORE_ACTION,
+USE_SECOND_NAME,
+ITEM_AFTER_ACTION
+}
+
+
+enum enums.modificators.Text {
+LONG_WHILE("долго"),
+GOOD("хорошо"),
+THEMSELVES("себя"),
+NOT("не"),
+ALREADY("уже"),
+THIS_TIME("в это время"),
+IN_THE_FAR("вдали"),
+THIRD("третий"),
+ONE_AFTER_OTHER("один за другим"),
+QUIETLY("тихо"),
+BRISKLY("резво"),
+GENIALLY("добродушно"),
+AS_IF("как будто"),
+INNOCENT_LOOK("невинным видом"),
+FORCED("принудительно"),
+ALSO("тоже"),
+RIGHT_BEHIND("следом за"),
+RIGHT_BEHIND_THEM("следом за ними"),
+RIGHT_IN_FRONT_OF("прямо перед"),
+AROUND("вокруг"),
+THIS_DAY("в этот день"),
+FUNNY_VOICES("весёлые голоса"),
+HAPPY_LAUGH("радостный смех"),
+WITH("с"),
+BIG_BASKETS("большие корзины"),
+UP("вверху"),
+HAND_FULL("пригоршнями"),
+DIFFERENT("разные"),
+IN_FLIGHT("на лету"),
+FROM_GROUND("с земли"),
+BETWEEN_EACH_OTHER("между собой"),
+ONE_COLOR("одного цвета"),
+SUDDENLY("неожиданно"),
+STRONGLY("крепко"),
+EACH_OTHER("друг на дружку"),
+NOTHING_AND_NO_ONE("ничего и никого"),
+FROM("с"),
+ALMOST("почти"),
+ANYWAY("всё-таки"),
+TWO_GLOVE_EACH("по две рукавички каждый"),
+WITH_BIG_WORK("с большим трудом"),
+FROM_ABOVE("сверху"),
+FOR_EACH("каждый"),
+LOOT("добычу"),
+WITH_LAUGH("со смехом"),
+RESENTMENT("обиду"),
+EXCHANGE("меняться"),
+TO_THEM("к ним"),
+THIS("это"),
+SURPRISED("от удивления"),
+FROM_FEET_TO_HEAD("с ног до головы"),
+THAT(", что"),
+EXTRA_ATTENTIVELY("особенно внимательно"),
+FROM_FEAR("от страха"),
+QUICKLY("быстро"),
+ON_HANDS("на руки"),
+HURRY("спеша"),
+THEM("их"),
+AS_IT_SHOULD_BE("как следует"),
+WIDELY("широко"),
+HIS_ROAD("своей дорогой"),
+TALKING_THIS_WAY("разговаривая таким образом"),
+IN_HOLE("в щель"),
+BEHIND_RADIATOR("за радиатором"),
+BY_ROADS("по дорогам"),
+THAT_LED("которые вели"),
+BACK("обратно"),
+WHICH("которые"),
+WHERE("где"),
+IN_PLACE("на место")
+-final String text
+Text(String text)
++String getText()
++void print()
+}
+
+
+class characters.AbstractCharacter extends characters.Character {
++AbstractCharacter(String name_1, String name_2, States state)
++AbstractCharacter(String name, States state)
+}
+
+
+class characters.Button extends characters.InventoryCharacter {
++Button(String name_1, String name_2, States state)
++Button(String name, States state)
++Button(String name_1, String name_2, States state, ArrayList<Item> inventory)
++Button(String name, States state, ArrayList<Item> inventory)
+}
+
+
+abstract class characters.Character implements characters.interfaces.ICanAct, characters.interfaces.ICanSit, characters.interfaces.ICanStand, characters.interfaces.ICanWalk, characters.interfaces.IExtendedRelocation {
+-NamesRecord name
+-Place location
+-States state
+#Character(String name_1, String name_2, States state)
+#Character(String name, States state)
++String getName_1()
++String getName_2()
++void printName_1()
++void printName_2()
++Place getLocation()
++void setLocation(Place location)
++States getState()
+#void setState(States state)
+#void act(String action, Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative, Place location)
++void action(Actions action, Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative, Place location)
++void move(Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative, Place location)
++void stand(Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative, Place location)
++void sit(Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative, Place location)
++void walk(Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative, Place location)
++void startStand(Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative, Place location)
++void startSit(Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative, Place location)
++void startWalk(Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative, Place location)
++void move_to(Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
++void run_to(Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
++boolean equals(Object otherObject)
++int hashCode()
++String toString()
+}
+characters.Character --down[#AAA]-o exceptions.NoLocationException
+
+class characters.Cleaner extends characters.InventoryCharacter implements characters.interfaces.ICanEquip {
+-int equipment_index = 0
++Cleaner(String name_1, String name_2, States state)
++Cleaner(String name, States state)
++Cleaner(String name_1, String name_2, States state, ArrayList<Item> inventory)
++Cleaner(String name, States state, ArrayList<Item> inventory)
++void setEquipped(int index)
++void printEquipped()
+}
+
+
+class characters.Donkey extends characters.Character {
++Donkey(String name_1, String name_2, States state)
++Donkey(String name, States state)
+}
+
+
+abstract class characters.InventoryCharacter extends characters.Character implements characters.interfaces.ICanExchange, characters.interfaces.ICanObtain {
+ArrayList<Item> inventory = new ArrayList<Item>()
+#InventoryCharacter(String name_1, String name_2, States state)
+#InventoryCharacter(String name, States state)
+#InventoryCharacter(String name_1, String name_2, States state, ArrayList<Item> inventory)
+#InventoryCharacter(String name, States state, ArrayList<Item> inventory)
++void describeInventory()
++void exchange(InventoryCharacter other, int self_slot, int other_slot)
++Item getSlot(int slot)
++void setSlot(int slot, Item item)
++void addItem(Item item)
++void obtainItem(Item item)
+}
+characters.InventoryCharacter -down[#AAA]-o exceptions.IncorrectSlotException
+characters.InventoryCharacter --down[#AAA]-o exceptions.IncorrectSlotException
+
+class characters.Motley extends characters.InventoryCharacter {
++Motley(String name_1, String name_2, States state)
++Motley(String name, States state)
++Motley(String name_1, String name_2, States state, ArrayList<Item> inventory)
++Motley(String name, States state, ArrayList<Item> inventory)
+}
+
+
+class characters.Plot extends characters.Character {
++Plot(States state)
+#void act(String action, Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative, Place location)
+}
+characters.Plot -down[#AAA]--o enums.modificators.Behavior
+
+class characters.Policeman extends characters.InventoryCharacter implements characters.interfaces.IHasIntroduction, characters.interfaces.ICanEquip {
+-int equipment_index = 0
++Policeman(String name_1, String name_2, States state)
++Policeman(String name, States state)
++Policeman(String name_1, String name_2, States state, ArrayList<Item> inventory)
++Policeman(String name, States state, ArrayList<Item> inventory)
++void describeInventory()
++void introduce()
++void setEquipped(int index)
++void printEquipped()
+}
+
+
+class characters.Small extends characters.InventoryCharacter {
++Small(String name_1, String name_2, States state)
++Small(String name, States state)
++Small(String name_1, String name_2, States state, ArrayList<Item> inventory)
++Small(String name, States state, ArrayList<Item> inventory)
+}
+
+
+class characters.Stupid extends characters.InventoryCharacter implements characters.interfaces.ICanSpeak {
++Stupid(String name_1, String name_2, States state)
++Stupid(String name, States state)
++Stupid(String name_1, String name_2, States state, ArrayList<Item> inventory)
++Stupid(String name, States state, ArrayList<Item> inventory)
++void sayAfter(String speech, Behavior[] static_mods, Text[] text_mods)
++void sayBefore(String speech, Behavior[] static_mods, Text[] text_mods)
+}
+
+
+class characters.Wizard extends characters.InventoryCharacter implements characters.interfaces.ICanSpeak {
++Wizard(String name_1, String name_2, States state)
++Wizard(String name, States state)
++Wizard(String name_1, String name_2, States state, ArrayList<Item> inventory)
++Wizard(String name, States state, ArrayList<Item> inventory)
++void sayAfter(String speech, Behavior[] static_mods, Text[] text_mods)
++void sayBefore(String speech, Behavior[] static_mods, Text[] text_mods)
+}
+
+
+interface characters.interfaces.ICanAct {
+void action(Actions action, Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative, Place location)
+default +void action(Actions action, Behavior[] static_mods, Text[] text_mods)
+default +void action(Actions action, Behavior[] static_mods, Text[] text_mods, Item item)
+default +void action(Actions action, Behavior[] static_mods, Text[] text_mods, Relatives relative)
+default +void action(Actions action, Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative)
+default +void action(Actions action, Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
+void move(Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative, Place location)
+default +void move(Behavior[] static_mods, Text[] text_mods)
+default +void move(Behavior[] static_mods, Text[] text_mods, Item item)
+default +void move(Behavior[] static_mods, Text[] text_mods, Relatives relative)
+default +void move(Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative)
+default +void move(Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
+}
+
+
+interface characters.interfaces.ICanEquip {
+void setEquipped(int slot)
+void printEquipped()
+}
+
+
+interface characters.interfaces.ICanExchange {
+void exchange(InventoryCharacter other, int self_slot, int other_slot)
+Item getSlot(int slot)
+void setSlot(int slot, Item item)
+}
+
+
+interface characters.interfaces.ICanObtain {
+void addItem(Item item)
+void obtainItem(Item item)
+}
+
+
+interface characters.interfaces.ICanSit {
+void sit(Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative, Place location)
+default +void sit(Behavior[] static_mods, Text[] text_mods)
+default +void sit(Behavior[] static_mods, Text[] text_mods, Item item)
+default +void sit(Behavior[] static_mods, Text[] text_mods, Relatives relative)
+default +void sit(Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative)
+default +void sit(Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
+void startSit(Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative, Place location)
+default +void startSit(Behavior[] static_mods, Text[] text_mods)
+default +void startSit(Behavior[] static_mods, Text[] text_mods, Item item)
+default +void startSit(Behavior[] static_mods, Text[] text_mods, Relatives relative)
+default +void startSit(Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative)
+default +void startSit(Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
+}
+
+
+interface characters.interfaces.ICanSpeak {
+void sayAfter(String speech, Behavior[] static_mods, Text[] text_mods)
+void sayBefore(String speech, Behavior[] static_mods, Text[] text_mods)
+}
+
+
+interface characters.interfaces.ICanStand {
+void stand(Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative, Place location)
+default +void stand(Behavior[] static_mods, Text[] text_mods)
+default +void stand(Behavior[] static_mods, Text[] text_mods, Item item)
+default +void stand(Behavior[] static_mods, Text[] text_mods, Relatives relative)
+default +void stand(Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative)
+default +void stand(Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
+void startStand(Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative, Place location)
+default +void startStand(Behavior[] static_mods, Text[] text_mods)
+default +void startStand(Behavior[] static_mods, Text[] text_mods, Item item)
+default +void startStand(Behavior[] static_mods, Text[] text_mods, Relatives relative)
+default +void startStand(Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative)
+default +void startStand(Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
+}
+
+
+interface characters.interfaces.ICanWalk {
+void walk(Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative, Place location)
+default +void walk(Behavior[] static_mods, Text[] text_mods)
+default +void walk(Behavior[] static_mods, Text[] text_mods, Item item)
+default +void walk(Behavior[] static_mods, Text[] text_mods, Relatives relative)
+default +void walk(Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative)
+default +void walk(Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
+void startWalk(Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative, Place location)
+default +void startWalk(Behavior[] static_mods, Text[] text_mods)
+default +void startWalk(Behavior[] static_mods, Text[] text_mods, Item item)
+default +void startWalk(Behavior[] static_mods, Text[] text_mods, Relatives relative)
+default +void startWalk(Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative)
+default +void startWalk(Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
+}
+
+
+interface characters.interfaces.IExtendedRelocation {
+void move_to(Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
+void run_to(Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
+}
+
+
+interface characters.interfaces.IForEach {
+void forEach(Actions action, Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative, Place location)
+default +void forEach(Actions action, Behavior[] static_mods, Text[] text_mods)
+default +void forEach(Actions action, Behavior[] static_mods, Text[] text_mods, Item item)
+default +void forEach(Actions action, Behavior[] static_mods, Text[] text_mods, Relatives relative)
+default +void forEach(Actions action, Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative)
+default +void forEach(Actions action, Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
+void forEach(Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative, Place location)
+default +void forEach(Behavior[] static_mods, Text[] text_mods)
+default +void forEach(Behavior[] static_mods, Text[] text_mods, Item item)
+default +void forEach(Behavior[] static_mods, Text[] text_mods, Relatives relative)
+default +void forEach(Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative)
+default +void forEach(Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
+void forEach(States state, Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative, Place location)
+default +void forEach(States state, Behavior[] static_mods, Text[] text_mods)
+default +void forEach(States state, Behavior[] static_mods, Text[] text_mods, Item item)
+default +void forEach(States state, Behavior[] static_mods, Text[] text_mods, Relatives relative)
+default +void forEach(States state, Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative)
+default +void forEach(States state, Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
+}
+
+
+interface characters.interfaces.IHasIntroduction {
+void introduce()
+}
+
+
+abstract class characters.groups.Group extends characters.Character {
+#Group(String name_1, String name_2, States state)
+#Group(String name, States state)
+abstract void listMembers()
+}
+
+
+class characters.groups.KnownGroup extends characters.groups.Group implements characters.interfaces.IForEach {
+-ArrayList<Character> members
++KnownGroup(String name_1, String name_2, States state, ArrayList<Character> members)
++KnownGroup(String name, States state, ArrayList<Character> members)
++Character getMember(int index)
++void forEach(Actions action, Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative, Place location)
++void forEach(States state, Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative, Place location)
++void forEach(Behavior[] static_mods, Text[] text_mods, Item item, Relatives relative, Place location)
++void listMembers()
++void move_to(Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
++void run_to(Behavior[] static_mods, Text[] text_mods, Relatives relative, Place location)
+}
+
+
+class characters.groups.UnknownGroup extends characters.groups.Group {
+-String description
++UnknownGroup(String name_1, String name_2, States state, String description)
++UnknownGroup(String name, States state, String description)
++void listMembers()
+}
+
+
+@enduml
